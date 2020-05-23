@@ -16,10 +16,10 @@ const amazon = require('simple-amazon-scraper');
 amazon('ProductURL')
 .then(product => console.log(product));
 // Result:
-{
-  price: '$amount',
-  name: 'some long item name'
-}
+// {
+//   price: '$amount',
+//   name: 'some long item name'
+// }
 ```
 
 
