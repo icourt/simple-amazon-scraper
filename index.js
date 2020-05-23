@@ -1,3 +1,3 @@
-const { scrape } = require('./lib/scraper.js');
+const scrape = require('./lib/scraper.js');
 
 module.exports = scrape;
