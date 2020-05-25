@@ -9,7 +9,7 @@ npm install simple-amazon-scraper
 ```
 
 ## Usage
-
+### Using .then()
 ```js
 const amazon = require('simple-amazon-scraper');
 
@@ -21,5 +21,18 @@ amazon('ProductURL')
 //   name: 'some long item name'
 // }
 ```
+### Using async/await
 
+```js
+const amazon = require('simple-amazon-scraper');
+async() => {
+    const product = await amazon('ProductURL')
+    console.log(product);
+}
+// Result:
+// {
+//   price: '$amount',
+//   name: 'some long item name'
+// }
+```
 
