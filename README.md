@@ -8,7 +8,7 @@ A node package that allows you to scrape the name and price of a URL from Amazon
 npm install simple-amazon-scraper
 ```
 
-## Usage
+# Usage
 ### Using .then()
 ```js
 const amazon = require('simple-amazon-scraper');
