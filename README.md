@@ -25,10 +25,10 @@ amazon('ProductURL')
 
 ```js
 const amazon = require('simple-amazon-scraper');
-async() => {
+(async() => {
     const product = await amazon('ProductURL')
     console.log(product);
-}
+})();
 // Result:
 // {
 //   price: '$amount',
